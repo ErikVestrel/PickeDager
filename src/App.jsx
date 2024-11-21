@@ -1,4 +1,5 @@
 import './App.css'
+import { Header } from './pages/MainHeader'
 
 function App() {
 
@@ -6,7 +7,8 @@ function App() {
     <>
     <div>
       {/* Vista Principal */}
-      <header className="bg-gradient-to-b from-blue-400 to-cyan-400 text-white min-h-screen flex flex-col items-center justify-center text-center px-4">
+      <Header></Header>
+      {/* <header className="bg-gradient-to-b from-blue-400 to-cyan-400 text-white min-h-screen flex flex-col items-center justify-center text-center px-4">
         <h1 className="text-4xl md:text-6xl font-bold mb-4">Bienvenido a Nuestra Landing Page</h1>
         <p className="text-lg md:text-xl mb-6">
           Explora nuestras secciones para más información
@@ -17,7 +19,7 @@ function App() {
         >
           Más Información
         </a>
-      </header>
+      </header> */}
 
       {/* Sección de Información */}
       <section
