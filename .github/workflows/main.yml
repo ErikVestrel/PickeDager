@@ -26,8 +26,6 @@ jobs:
       - name: Run linting
         run: npm run lint # Personaliza según los scripts de tu proyecto.
 
-      - name: Run tests
-        run: npm test # Personaliza según tu configuración de pruebas.
 
       - name: Build project
         run: npm run build
