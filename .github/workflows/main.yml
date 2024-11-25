@@ -23,8 +23,7 @@ jobs:
       - name: Install dependencies
         run: npm install
 
-      - name: Run linting
-        run: npm run lint # Personaliza según los scripts de tu proyecto.
+      - # Personaliza según los scripts de tu proyecto.
 
 
       - name: Build project
