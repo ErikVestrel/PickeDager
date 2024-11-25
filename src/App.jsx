@@ -10,7 +10,7 @@ function App() {
     <>
     <BrowserRouter>
     <Header></Header>
-    <main className='w-full h-full mt-14 content box-border scroll'>
+    <main className='w-full h-full  content box-border overflow-y-scroll scrollbar-none'>
       <Routes>
         <Route index element={<p>holadiablo</p>} />
         <Route path='/principal' element={<MainContainer/>}/>

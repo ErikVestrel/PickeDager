@@ -6,7 +6,7 @@ import { NavLink} from "react-router";
 
 export const Header = () => (
     <>
-        <header className="fixed top-0 grid grid-cols-5 gap-16 px-16 justify-between items-center w-full h-14 border-none  bg-blue-200 ">
+        <header className="row-span-1 grid grid-cols-5 gap-16 px-16 justify-between items-center w-full h-14 border-none  bg-blue-200 ">
             <div className="col-span-1 w-36 h-full justify-self-center">
                 <img className="w-full h-full object-contain" src={logo} alt="pickle" />
                 
