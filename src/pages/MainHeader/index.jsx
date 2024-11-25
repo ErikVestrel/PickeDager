@@ -1,5 +1,6 @@
 import { AiFillLinkedin, AiOutlineLink, AiFillGithub } from "react-icons/ai";
 import '../../App.css'
+import React from "react";
 
 import logo from '../../assets/images/pdlogo.png'
 import { NavLink} from "react-router";
@@ -7,7 +8,7 @@ import { NavLink} from "react-router";
 export const Header = () => (
     <>
         <header className="row-span-1 grid grid-cols-5 gap-16 px-16 justify-between items-center w-full h-14 border-none  bg-blue-200 ">
-            <div className="col-span-1 w-36 h-full justify-self-center">
+            <div className="col-span-1 w-36 h-full justify-self-center ">
                 <img className="w-full h-full object-contain" src={logo} alt="pickle" />
                 
             </div>
@@ -15,10 +16,10 @@ export const Header = () => (
                 <div className="flex justify-center items-center gap-6 w-full h-14 border-none pl-12 ">
                         
                 
-                    <NavLink className="w-32 h-12 rounded-xl border-none bg-blue-300 grid place-items-center" to={'/'} >about me </NavLink>
-                 
-                    <NavLink className="w-32 h-12 rounded-xl border-none bg-blue-300 grid place-items-center" to={'/principal'}>about me </NavLink>
-                    <NavLink className="w-32 h-12 rounded-xl border-none bg-blue-300 grid place-items-center" >contact</NavLink>
+                    <NavLink  style={({isActive}) => ({backgroundColor: isActive ? 'red' : 'blue'})}
+                    className="w-32 h-12 rounded-xl border-none bg-blue-300 grid place-items-center" to={'/'} >about me </NavLink>
+                    <NavLink  style={({isActive}) => ({backgroundColor: isActive ? 'red' : 'blue'})} className="w-32 h-12 rounded-xl border-none bg-blue-300 grid place-items-center" to={'/principal'}>about me </NavLink>
+                    <NavLink  style={({isActive}) => ({backgroundColor: isActive ? 'red' : 'blue'})} className="w-32 h-12 rounded-xl border-none bg-blue-300 grid place-items-center" to={'/culo'} >contact</NavLink>
 
                 </div>
                 <div>

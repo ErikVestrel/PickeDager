@@ -1,4 +1,4 @@
-
+import pluginTailwind from 'tailwind-scrollbar'
 /** @type {import('tailwindcss').Config} */
 
 export default {
@@ -10,6 +10,6 @@ export default {
     extend: {},
   },
   plugins: [
-    require('tailwind-scrollbar')
+    pluginTailwind
   ],
 }
