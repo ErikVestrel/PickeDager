@@ -2,7 +2,7 @@ import { AiFillLinkedin, AiOutlineLink, AiFillGithub } from "react-icons/ai";
 import '../../App.css'
 import React from "react";
 
-import logo from '../../assets/images/pdlogo.png'
+import logo from '../../../public/images/pdlogo.png'
 import { NavLink} from "react-router";
 
 export const Header = () => (
