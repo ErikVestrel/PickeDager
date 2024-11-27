@@ -9,13 +9,13 @@ const Home = () =>{
 
         <img src={back} alt="fondo" className="absolute w-full h-full object-cover blur-md opacity-60 " />
 
-            <div className="animate-fade-left z-10 grid grid-flow-col w-3/6 border-none rounded-3xl  shadow-custom-dark hover:scale-105 ">
-                <figure className="w-60 h-60 m-12 rounded-full overflow-hidden" >
+            <div className="animate-fade-left z-10 grid grid-flow-col w-3/6 border-none rounded-3xl  shadow-custom-dark cursor-pointer hover">
+                <figure className="w-60 h-60 m-12 rounded-full overflow-hidden hover-scale  " >
 
                     <img className="object-contain" src={perfil} alt="perfil" />
 
                 </figure>
-                <div className="presentation-text text-center  p-14 flex flex-col gap-12
+                <div className="presentation-text text-center  p-14 flex flex-col gap-12 hover-scale
                 " >
                     <h1 className="text-2xl font-bold">HOLA, mi nombre es ERIK VELA</h1>
                     <p className="text-lg font-semibold font-mono">soy desarrollador front-end con experiencia propia haciendo interfaces de usuario, tiendas ecommerce y landing pages para influencers</p>

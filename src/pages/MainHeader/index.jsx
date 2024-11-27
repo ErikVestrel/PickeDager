@@ -18,8 +18,8 @@ export const Header = () => (
                 
                     <NavLink  style={({isActive}) => ({backgroundColor: isActive ? 'red' : 'blue'})}
                     className="w-32 h-12 rounded-xl border-none bg-blue-300 grid place-items-center" to={'/'} >about me </NavLink>
-                    <NavLink  style={({isActive}) => ({backgroundColor: isActive ? 'red' : 'blue'})} className="w-32 h-12 rounded-xl border-none bg-blue-300 grid place-items-center" to={'/principal'}>about me </NavLink>
-                    <NavLink  style={({isActive}) => ({backgroundColor: isActive ? 'red' : 'blue'})} className="w-32 h-12 rounded-xl border-none bg-blue-300 grid place-items-center" to={'/culo'} >contact</NavLink>
+                    <NavLink  style={({isActive}) => ({backgroundColor: isActive ? 'red' : 'blue'})} className="w-32 h-12 rounded-xl border-none bg-blue-300 grid place-items-center" to={'/galery'}>about me </NavLink>
+                    <NavLink  style={({isActive}) => ({backgroundColor: isActive ? 'red' : 'blue'})} className="w-32 h-12 rounded-xl border-none bg-blue-300 grid place-items-center" to={'/principal'} >contact</NavLink>
 
                 </div>
                 <div>

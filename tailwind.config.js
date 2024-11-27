@@ -21,10 +21,15 @@ export default {
           '0%': { opacity: '0', transform: 'translateX(-30px)' },
           '100%': { opacity: '1', transform: 'translateX(0)' },
         },
+        hoverOver:{
+          '0%': { transform: 'scale(1)'},
+          '100%': { transform: 'scale(1.1)'  },
+        }
       },
       animation: {
         'fade-in': 'fadeIn 0.7s ease-in-out forwards',
         'fade-left': 'fadeLeft 0.7s ease-in-out forwards',
+        
       },
     },
   },
