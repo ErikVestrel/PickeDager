@@ -24,12 +24,21 @@ export default {
         hoverOver:{
           '0%': { transform: 'scale(1)'},
           '100%': { transform: 'scale(1.1)'  },
-        }
+        },
+        twinkle: {
+          '0%, 100%': { transform: 'translateY(0) translateX(0)', opacity: '1' },
+          '50%': { transform: 'translateY(-2px) translateX(2px)', opacity: '0.2' },
+        },
+        backgroundMove: {
+          '0%': { transform: 'translateX(0)' },
+          '100%': { transform: 'translateX(-10px)' },
+        },
       },
       animation: {
         'fade-in': 'fadeIn 0.7s ease-in-out forwards',
         'fade-left': 'fadeLeft 0.7s ease-in-out forwards',
-        
+        'star-twinkle': 'twinkle 3s ease-in-out infinite',
+        'background-move': 'backgroundMove 10s linear infinite',
       },
     },
   },

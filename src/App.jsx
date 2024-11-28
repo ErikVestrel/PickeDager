@@ -5,6 +5,7 @@ import { MainContainer } from './pages/MainContainer'
 import { BrowserRouter, Route, Routes} from 'react-router'
 import { Home } from './pages/Home'
 import { Galery } from './pages/Galery/Galery'
+import StarsBackground from './components/backstars'
 
 
 function App() {
@@ -13,11 +14,11 @@ function App() {
     <>
     <BrowserRouter>
     <Header></Header>
-    <main className='w-full h-full  content box-border overflow-y-scroll scrollbar-none'>
+    <main className='relative w-full h-full  content box-border overflow-y-scroll scrollbar-none'>
       <Routes>
         <Route index element={<Home/>} />
         <Route path='/galery' element={<Galery/>} />
-        <Route path='/principal' element={<MainContainer/>}/>
+        <Route path='/principal' element={<StarsBackground/>}/>
       </Routes>
       
     </main>
